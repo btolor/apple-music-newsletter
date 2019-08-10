@@ -1,3 +1,4 @@
+TABLES...
 <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
 </table>
 
@@ -12,3 +13,13 @@ https://i.postimg.cc/prxvBgG9/music-note.png
 https://i.postimg.cc/WbNjqcqC/radio-music.png
 https://i.postimg.cc/g2BYPtJ5/tumblr-icon.png
 https://i.postimg.cc/13z9219w/twitter-icon.png
+
+COLORS...
+action-color: #ff2d55;
+btn-color: white;
+footer-bg: #f2f2f2;
+header-color: black;
+text-color: #333333;
+
+FONTS...
+font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
