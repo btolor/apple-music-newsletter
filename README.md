@@ -1,2 +1,2 @@
-# apple-newsletter
+# Apple Music Newsletter
 This is a responsive apple music newsletter email made with html tables and css/scss sass...
