@@ -13,6 +13,7 @@ https://i.postimg.cc/prxvBgG9/music-note.png
 https://i.postimg.cc/WbNjqcqC/radio-music.png
 https://i.postimg.cc/g2BYPtJ5/tumblr-icon.png
 https://i.postimg.cc/13z9219w/twitter-icon.png
+https://i.postimg.cc/RC2fJCg0/join-link.png
 
 COLORS...
 action-color: #ff2d55;
