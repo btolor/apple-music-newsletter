@@ -17,8 +17,11 @@ https://i.postimg.cc/RC2fJCg0/join-link.png
 
 COLORS...
 action-color: #ff2d55;
+border: #dfdfdf;
 btn-color: white;
 footer-bg: #f2f2f2;
+footer-action-color: #555555;
+footer-txt-color: #888888;
 header-color: black;
 text-color: #333333;
 

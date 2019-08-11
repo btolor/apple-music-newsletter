@@ -1,7 +1,283 @@
-* {
+.email {
+  background-color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.email #header-row #header-td {
+  text-align: center;
+}
+.email #header-row #header-td #header-banner img {
+  width: 600px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.email #header-row #header-td #header-info {
+  padding: 7% 5%;
   margin: 0;
-  padding: 0;
-  border-spacing: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #333333;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.email #header-row #header-td #header-music-action-note {
+  display: block;
+}
+.email #header-row #header-td #header-music-action-note img {
+  width: 100px;
+  height: 100px;
+}
+.email #header-row #header-td #header-music-action-btn {
+  display: block;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  background-color: #ff2d55;
+  width: 42%;
+  margin: 3% auto 6%;
+  padding: 1.2% 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.email #library-row #library-td .library-container #library-contain-row #library-contain-td {
+  border-top: 1px solid #dfdfdf;
+  text-align: center;
+  padding: 8% 0 6%;
+}
+.email #library-row #library-td .library-container #library-contain-row #library-contain-td #library-title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+.email #library-row #library-td .library-container #library-contain-row #library-contain-td #library-info {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.5;
+  padding: 3.4% 0 2%;
+}
+.email #library-row #library-td .library-container #library-contain-row #library-contain-td #music-library-img {
+  width: 175px;
+  height: 140px;
+}
+.email #playlist-row #playlist-td .playlist-container #playlist-contain-row #playlist-contain-td {
+  border-top: 1px solid #dfdfdf;
+  text-align: center;
+  padding: 8% 0 6%;
+}
+.email #playlist-row #playlist-td .playlist-container #playlist-contain-row #playlist-contain-td #playlist-title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+.email #playlist-row #playlist-td .playlist-container #playlist-contain-row #playlist-contain-td #playlist-info {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.5;
+  padding: 3.4% 0 2%;
+}
+.email #playlist-row #playlist-td .playlist-container #playlist-contain-row #playlist-contain-td #music-browser-img {
+  width: 175px;
+  height: 140px;
+}
+.email #radio-row #radio-td .radio-container #radio-contain-row #radio-contain-td {
+  border-top: 1px solid #dfdfdf;
+  text-align: center;
+  padding: 8% 0 6%;
+}
+.email #radio-row #radio-td .radio-container #radio-contain-row #radio-contain-td #radio-title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+.email #radio-row #radio-td .radio-container #radio-contain-row #radio-contain-td #radio-info {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.5;
+  padding: 3.4% 0 2%;
+}
+.email #radio-row #radio-td .radio-container #radio-contain-row #radio-contain-td #music-radio-img {
+  width: 175px;
+  height: 140px;
+}
+.email #personalize-row #personalize-td .personalize-container #personalize-contain-row #personalize-contain-td {
+  border-top: 1px solid #dfdfdf;
+  text-align: center;
+  padding: 8% 0 6%;
+}
+.email #personalize-row #personalize-td .personalize-container #personalize-contain-row #personalize-contain-td #personalize-title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+.email #personalize-row #personalize-td .personalize-container #personalize-contain-row #personalize-contain-td #personalize-info {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.5;
+  padding: 3.4% 0 2%;
+}
+.email #personalize-row #personalize-td .personalize-container #personalize-contain-row #personalize-contain-td #music-personalize-img {
+  width: 175px;
+  height: 140px;
+}
+.email #off-line-row #off-line-td .off-line-container #off-line-contain-row #off-line-contain-td {
+  border-top: 1px solid #dfdfdf;
+  text-align: center;
+  padding: 8% 0 6%;
+}
+.email #off-line-row #off-line-td .off-line-container #off-line-contain-row #off-line-contain-td #off-line-title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+.email #off-line-row #off-line-td .off-line-container #off-line-contain-row #off-line-contain-td #off-line-info {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.5;
+  padding: 3.4% 0 2%;
+}
+.email #join-row #join-td .join-container #join-contain-row #join-contain-td {
+  border-top: 1px solid #dfdfdf;
+  text-align: center;
+  padding: 8% 0 6%;
+}
+.email #join-row #join-td .join-container #join-contain-row #join-contain-td #join-title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+.email #join-row #join-td .join-container #join-contain-row #join-contain-td #join-info {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 400;
+  width: 32%;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.8;
+  padding: 3% 0 2.9%;
+}
+.email #join-row #join-td .join-container #join-contain-row #join-contain-td #join-try-action {
+  display: block;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #ff2d55;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 2%;
+}
+.email #join-row #join-td .join-container #join-contain-row #join-contain-td #join-try-action span img {
+  width: 12px;
+}
+.email #join-row #join-td .join-container #join-contain-row #join-contain-td #join-learn-action {
+  display: block;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #ff2d55;
+  font-size: 18px;
+  font-weight: 400;
+}
+.email #join-row #join-td .join-container #join-contain-row #join-contain-td #join-learn-action span img {
+  width: 12px;
+}
+.email #footer-row #footer-td {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 5% 5% 6%;
+}
+.email #footer-row #footer-td #facebook-icon, .email #footer-row #footer-td #twitter-icon, .email #footer-row #footer-td #instagram-icon, .email #footer-row #footer-td #tumblr-icon {
+  margin: 0 2%;
+  text-decoration: none;
+}
+.email #footer-row #footer-td #facebook-icon img {
+  width: 25px;
+}
+.email #footer-row #footer-td #twitter-icon img {
+  width: 25px;
+}
+.email #footer-row #footer-td #instagram-icon img {
+  width: 25px;
+}
+.email #footer-row #footer-td #tumblr-icon img {
+  width: 16px;
+}
+.email #footer-row #footer-td #p1, .email #footer-row #footer-td #p2, .email #footer-row #footer-td #p3, .email #footer-row #footer-td #p4, .email #footer-row #footer-td #p5 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #888888;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  padding: 1.5% 0;
+}
+.email #footer-row #footer-td #p1 a, .email #footer-row #footer-td #p2 a, .email #footer-row #footer-td #p3 a, .email #footer-row #footer-td #p4 a, .email #footer-row #footer-td #p5 a {
+  color: #555555;
+  text-decoration: none;
+  font-weight: 400;
+}
+.email #footer-row #footer-td #p1 {
+  padding-top: 3.5%;
+}
+.email #footer-row #footer-td #p4 {
+  line-height: 1.6;
+}
+.email #footer-row #footer-td #p5 {
+  padding-bottom: 3%;
+}
+.email #footer-row #footer-td #policy, .email #footer-row #footer-td #terms, .email #footer-row #footer-td #support, .email #footer-row #footer-td #account, .email #footer-row #footer-td #subscribe, .email #footer-row #footer-td #un-subscribe {
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #555555;
+  font-size: 12px;
+  font-weight: 400;
+}
+.email #footer-row #footer-td span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #555555;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 1.5%;
+  margin-right: 0.5%;
 }
 
 /*# sourceMappingURL=main.css.map */

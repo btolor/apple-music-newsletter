@@ -2,8 +2,215 @@
 @import SASS-MIXINS
 @import variables
 // Global...
-*
-    margin: 0
-    padding: 0
-    border-spacing: 0
-    
+// *
+//     margin: 0
+//     padding: 0
+//     border-spacing: 0
+.email
+    background-color: $btn-color
+    -webkit-border-radius: 10px
+    -moz-border-radius: 10px
+    border-radius: 10px
+    #header-row
+        #header-td
+            text-align: center
+            #header-banner
+                img
+                    width: 600px
+                    -webkit-border-top-left-radius: 10px
+                    -webkit-border-top-right-radius: 10px
+                    -moz-border-radius-topleft: 10px
+                    -moz-border-radius-topright: 10px
+                    border-top-left-radius: 10px
+                    border-top-right-radius: 10px
+            #header-info
+                padding: 7% 5%
+                margin: 0
+                +text($font,$text-color,20px,400)
+                line-height: 1.5
+            #header-music-action-note
+                display: block
+                img
+                    width: 100px
+                    height: 100px
+            #header-music-action-btn
+                display: block
+                text-decoration: none 
+                +text($font,$btn-color,17px,400)
+                background-color: $action-color
+                +center(42%, 3% auto 6%)
+                padding: 1.2% 0
+                -webkit-border-radius: 5px
+                -moz-border-radius: 5px
+                border-radius: 5px
+    #library-row
+        #library-td
+            .library-container
+                #library-contain-row
+                    #library-contain-td
+                        border-top: 1px solid $border
+                        text-align: center
+                        padding: 8% 0 6%
+                        #library-title
+                            +text($font,$header-color,30px,500)
+                            margin: 0
+                        #library-info
+                            +text($font,$text-color,16px,400)
+                            +center(90%, 0 auto)
+                            line-height: 1.5
+                            padding: 3.4% 0 2%
+                        #music-library-img
+                            width: 175px
+                            height: 140px
+    #playlist-row
+        #playlist-td
+            .playlist-container
+                #playlist-contain-row
+                    #playlist-contain-td
+                        border-top: 1px solid $border
+                        text-align: center
+                        padding: 8% 0 6%
+                        #playlist-title
+                            +text($font,$header-color,30px,500)
+                            margin: 0
+                        #playlist-info
+                            +text($font,$text-color,16px,400)
+                            +center(90%, 0 auto)
+                            line-height: 1.5
+                            padding: 3.4% 0 2%
+                        #music-browser-img
+                            width: 175px
+                            height: 140px
+    #radio-row
+        #radio-td
+            .radio-container
+                #radio-contain-row
+                    #radio-contain-td
+                        border-top: 1px solid $border
+                        text-align: center
+                        padding: 8% 0 6%
+                        #radio-title
+                            +text($font,$header-color,30px,500)
+                            margin: 0
+                        #radio-info
+                            +text($font,$text-color,16px,400)
+                            +center(90%, 0 auto)
+                            line-height: 1.5
+                            padding: 3.4% 0 2%
+                        #music-radio-img
+                            width: 175px
+                            height: 140px
+    #personalize-row
+        #personalize-td
+            .personalize-container
+                #personalize-contain-row
+                    #personalize-contain-td
+                        border-top: 1px solid $border
+                        text-align: center
+                        padding: 8% 0 6%
+                        #personalize-title
+                            +text($font,$header-color,30px,500)
+                            margin: 0
+                        #personalize-info
+                            +text($font,$text-color,16px,400)
+                            +center(90%, 0 auto)
+                            line-height: 1.5
+                            padding: 3.4% 0 2%
+                        #music-personalize-img
+                            width: 175px
+                            height: 140px
+    #off-line-row
+        #off-line-td
+            .off-line-container
+                #off-line-contain-row
+                    #off-line-contain-td
+                        border-top: 1px solid $border
+                        text-align: center
+                        padding: 8% 0 6%
+                        #off-line-title
+                            +text($font,$header-color,30px,500)
+                            margin: 0
+                        #off-line-info
+                            +text($font,$text-color,16px,400)
+                            +center(90%, 0 auto)
+                            line-height: 1.5
+                            padding: 3.4% 0 2%
+    #join-row
+        #join-td
+            .join-container
+                #join-contain-row
+                    #join-contain-td
+                        border-top: 1px solid $border
+                        text-align: center
+                        padding: 8% 0 6%
+                        #join-title
+                            +text($font,$header-color,30px,500)
+                            margin: 0
+                        #join-info
+                            +text($font,$text-color,18px,400)
+                            +center(32%, 0 auto)
+                            text-align: left
+                            line-height: 1.8
+                            padding: 3% 0 2.9%
+                        #join-try-action
+                            display: block
+                            text-decoration: none
+                            +text($font,$action-color,18px,400)
+                            padding-bottom: 2%
+                            span
+                                img
+                                    width: 12px
+                        #join-learn-action
+                            display: block
+                            text-decoration: none
+                            +text($font,$action-color,18px,400)
+                            span
+                                img
+                                    width: 12px
+    #footer-row
+        #footer-td
+            +center(100%, 0 auto)
+            background-color: $footer-bg
+            text-align: center
+            padding: 5% 5% 6%
+            #facebook-icon,#twitter-icon,#instagram-icon,#tumblr-icon
+                margin: 0 2%
+                text-decoration: none
+            #facebook-icon
+                img 
+                    width: 25px  
+            #twitter-icon
+                img 
+                    width: 25px  
+            #instagram-icon
+                img 
+                    width: 25px   
+            #tumblr-icon
+                img 
+                    width: 16px  
+            #p1,#p2,#p3,#p4,#p5
+                +text($font,$footer-txt-color,12px,400) 
+                margin: 0
+                padding: 1.5% 0
+                a 
+                    color: $footer-action-color
+                    text-decoration: none
+                    font-weight: 400
+            #p1
+                padding-top: 3.5%
+            #p4
+                line-height: 1.6
+            #p5
+                padding-bottom: 3%
+            #policy,#terms,#support,#account,#subscribe,#un-subscribe
+                text-decoration: none
+                +text($font,$footer-action-color,12px,400) 
+            span
+                +text($font,$footer-action-color,12px,400) 
+                margin-left: 1.5% 
+                margin-right: .5%
+            
+
+
+
+
